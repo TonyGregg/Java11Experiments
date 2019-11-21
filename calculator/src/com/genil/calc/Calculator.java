@@ -43,6 +43,8 @@ public class Calculator {
                     number = reader.nextInt();
                     if (MathUtil.isEven(number)) {
                         System.out.println("The number " + number + " is even");
+                    } else {
+                        System.out.println("The number " + number + " is NOT even");
                     }
                     break;
                 case 3:
